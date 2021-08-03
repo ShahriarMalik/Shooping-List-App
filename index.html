@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font awesome -->
+    <script
+      src="https://kit.fontawesome.com/140790cef9.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Shopping List App</title>
+  </head>
+  <body>
+    <section class="section-center">
+      <!-- form -->
+      <form class="list-form">
+        <p class="alert"></p>
+        <h3>Shoppling List</h3>
+        <div class="form-control">
+          <input type="text" id="grocery" placeholder="e.g. eggs" />
+          <button type="submit" class="btn submit-btn">submit</button>
+        </div>
+      </form>
+
+      <div class="grocery-container">
+        <div class="grocery-list"></div>
+        <div class="copclr-btn-container">
+          <button class="clear-btn btn">clear list</button>
+          <button class="copy-btn btn">copy list</button>
+        </div>
+      </div>
+      <!-- list -->
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
